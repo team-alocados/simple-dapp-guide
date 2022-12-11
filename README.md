@@ -38,3 +38,13 @@ window.ethereum은 여러 문서에서 <b>provider</b>로 지칭합니다.
 
 
 2. web3.js
+
+블록체인과 원활한 소통을 위해 사용되는 라이브러리입니다.
+
+```
+import Web3 from "web3"
+
+const web3 = new Web3(window.ethereum)
+```
+
+ethereum 블록체인에 올라가있는 smart contract와의 연결을 위해 web3 객체를 생성하여줍니다.
